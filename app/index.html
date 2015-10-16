@@ -11,8 +11,11 @@
 
     <!-- build:css styles/vendor.css -->
     <!-- bower:css -->
+    <link rel="stylesheet" href="/bower_components/material-design-lite/material.min.css" />
     <!-- endbower -->
     <!-- endbuild -->
+    <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto:300,400,500,700'>
+    <link rel='stylesheet' href='https://fonts.googleapis.com/icon?family=Material+Icons'>
 
     <!-- build:css styles/main.css -->
     <link rel="stylesheet" href="styles/main.css">
@@ -23,16 +26,76 @@
     <!--[if lt IE 10]>
       <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
-    
-    <div class="hero-unit">
-      <h1>'Allo, 'Allo!</h1>
-      <p>You now have</p>
-      <ul>
-        <li>HTML5 Boilerplate</li>
-        <li>Sass</li>
-      </ul>
+
+    <div class='mdl-layout mdl-js-layout mdl-color--grey-200'>
+      <main class='mdl-layout__content'>
+        <div class='flyer-paper mdl-shadow--2dp'>
+          <div class='mdl-grid mdl-color--primary mdl-color-text--white'>
+            <div class='mdl-cell mdl-cell--12-col'>
+              <h1 class='mdl-typography--display-2'>GDG Uruguay &#183; Title of meetup</h1>
+            </div>
+          </div>
+          <div class='mdl-grid mdl-color--primary mdl-color-text--white'>
+            <div class='mdl-cell mdl-cell--3-col'>
+              <i class='material-icons'>event</i>
+              <span class='flyer-label'>Aug 19</span>
+            </div>
+            <div class='mdl-cell mdl-cell--3-col'>
+              <i class='material-icons'>schedule</i>
+              <span class='flyer-label'>19:30</span>
+            </div>
+            <div class='mdl-cell mdl-cell--6-col'>
+              <i class='material-icons'>place</i>
+              <span class='flyer-label'>Tiburcio Gómez 1330 apto 3</span>
+            </div>
+          </div>
+
+          <div class='mdl-grid mdl-color--white'>
+            <div class='mdl-cell mdl-cell--2-col'>
+              <img class='flyer-avatar' src='http://placehold.it/77x77' alt='speaker avatar'>
+            </div>
+            <div class='mdl-cell mdl-cell--10-col flyer-speaker-data'>
+              <strong> A talk about the universe and cats </strong>
+              <em>Robert Robertson <a href='http://twitter.com/jojoooo'>@jojoooo</a></em>
+            </div>
+          </div>
+          <div class='mdl-grid mdl-color--white'>
+            <div class='mdl-cell mdl-cell--2-col'>
+              <img class='flyer-avatar' src='http://placehold.it/77x77' alt='speaker avatar'>
+            </div>
+            <div class='mdl-cell mdl-cell--10-col flyer-speaker-data'>
+              <strong> A talk about the universe and cats </strong>
+              <em>Robert Robertson <a href='http://twitter.com/jojoooo'>@jojoooo</a></em>
+            </div>
+          </div>
+          <div class='mdl-grid mdl-color--white'>
+            <div class='mdl-cell mdl-cell--2-col'>
+              <img class='flyer-avatar' src='http://placehold.it/77x77' alt='speaker avatar'>
+            </div>
+            <div class='mdl-cell mdl-cell--10-col flyer-speaker-data'>
+              <strong> A talk about the universe and cats </strong>
+              <em>Robert Robertson <a href='http://twitter.com/jojoooo'>@jojoooo</a></em>
+            </div>
+          </div>
+
+          <div class='mdl-grid mdl-color--grey-600 mdl-color-text--white flyer-footer'>
+            <div class='mdl-cell mdl-cell--col-4'>
+              <p>Register at</p>
+              <p><a href='http://meetup.com/GDGuruguay/' class='mdl-color-text--white'>meetup.com/GDGuruguay</a></p>
+            </div>
+            <div class='mdl-cell mdl-cell--col-4'>
+              <p>Space sponsor</p>
+              <img src='https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png' alt='Google logo'>
+            </div>
+            <div class='mdl-cell mdl-cell--col-4'>
+              <p>Drinks sponsor</p>
+              <img src='http://aprend.io/images/aprendio-logo.png' alt='aprend.io logo'>
+            </div>
+          </div>
+        </div>
+      </main>
     </div>
-    
+
     <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
     <script>
       (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
@@ -45,6 +108,7 @@
 
     <!-- build:js scripts/vendor.js -->
     <!-- bower:js -->
+    <script src="/bower_components/material-design-lite/material.min.js"></script>
     <!-- endbower -->
     <!-- endbuild -->
     

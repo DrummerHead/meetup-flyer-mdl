@@ -1,31 +1,38 @@
 // bower:scss
 // endbower
 
-body {
-  background: #fafafa;
-  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  color: #333;
+.flyer-paper {
+  max-width: 44em;
+  margin: 2em auto;
 }
 
-.hero-unit {
-  margin: 50px auto 0 auto;
-  width: 300px;
-  font-size: 18px;
-  font-weight: 200;
-  line-height: 30px;
-  background-color: #eee;
-  border-radius: 6px;
-  padding: 60px;
-  h1 {
-    font-size: 60px;
-    line-height: 1;
-    letter-spacing: -1px;
-  }
+.flyer-paper h1 {
+  display: block;
+  margin: .25em 0 0;
 }
 
-.browserupgrade {
-  margin: 0.2em 0;
-  background: #ccc;
-  color: #000;
-  padding: 0.2em 0;
+.flyer-label {
+  vertical-align: calc(.5em);
+}
+
+.flyer-avatar {
+  border-radius: 50%;
+}
+
+.flyer-speaker-data {
+  align-self: center;
+}
+.flyer-speaker-data strong {
+  display: block;
+}
+.flyer-speaker-data em {
+}
+
+.flyer-footer {
+}
+.flyer-footer p {
+  margin: .1em 0;
+}
+.flyer-footer img {
+  max-width: 90%;
 }
